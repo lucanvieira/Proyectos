@@ -5,6 +5,11 @@
 🎯 **Data Analyst | Junior**
 Passionate about turning complex data into clear, actionable insights to support evidence-based decision-making. My background combines **psychology, management, and data analytics**, bringing a human and creative perspective to every project.
 
+My Projects:
+
+## 1) [Marketing](https://github.com/lucanvieira/Proyectos/tree/e3e9179a3f14e5199d08b92b9395953f04af61d4/MARKETING)
+## 2) [Products](https://github.com/lucanvieira/Proyectos/tree/4f3b1a0d37da84296422762b9a8ca6a4d420eb59/Productos)
+## 3) [Education| Social](https://github.com/lucanvieira/Proyectos/tree/ea9387a8618c66b4330061ea7cf17048e250f5f3/Prouni%20-%20Brasil)
 ---
 
 ## 🚀 About Me
@@ -46,7 +51,7 @@ A **public policy data analytics project** focused on education and social equit
 
 ## 📚 Education
 
-🎓 IT Academy - Barcelona Activa | *Data Analysis (2025)*
+🎓 IT Academy - Barcelona Activa | *Data Analysis (2024)*
 🎓 Federal University of Paraná | *Master’s in Literature (2018)*
 🎓 Federal Technological University of Paraná | *Postgraduate in Hybrid Arts (2017)*
 🎓 State University of Paraná | *Bachelor’s in Performing Arts (2016)*
