@@ -1,4 +1,4 @@
-CustomerID,Age,Income,Education_Level,Marital_Status,Kidhome,Teenhome,Customer_Days,Recency,Complain,Z_CostContact,Z_Revenue,MntWines,MntFruits,MntMeatProducts,MntFishProducts,MntSweetProducts,MntGoldProds,MntTotal,MntRegularProds,NumDealsPurchases,NumWebPurchases,NumCatalogPurchases,NumStorePurchases,NumWebVisitsMonth,AcceptedCmp1,AcceptedCmp2,AcceptedCmp3,AcceptedCmp4,AcceptedCmp5,AcceptedCmpOverall,Response
+﻿CustomerID,Age,Income,Education_Level,Marital_Status,Kidhome,Teenhome,Customer_Days,Recency,Complain,Z_CostContact,Z_Revenue,MntWines,MntFruits,MntMeatProducts,MntFishProducts,MntSweetProducts,MntGoldProds,MntTotal,MntRegularProds,NumDealsPurchases,NumWebPurchases,NumCatalogPurchases,NumStorePurchases,NumWebVisitsMonth,AcceptedCmp1,AcceptedCmp2,AcceptedCmp3,AcceptedCmp4,AcceptedCmp5,AcceptedCmpOverall,Response
 CUST_0001,63,58138,Graduation,Single,0,0,2822,58,0,3,11,635,88,546,172,88,88,1529,1441,3,8,10,4,7,0,0,0,0,0,0,1
 CUST_0002,66,46344,Graduation,Single,1,1,2272,38,0,3,11,11,1,6,2,1,6,21,15,2,1,1,2,5,0,0,0,0,0,0,0
 CUST_0003,55,71613,Graduation,Together,0,0,2471,26,0,3,11,426,49,127,111,21,42,734,692,1,8,2,10,4,0,0,0,0,0,0,0
