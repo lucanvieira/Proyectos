@@ -1,0 +1,27 @@
+| **Variable**            | **Descripción**                                                                   |
+| ----------------------- | --------------------------------------------------------------------------------- |
+| **AcceptedCmp1**        | 1 si el cliente aceptó la oferta en la **1.ª campaña**, 0 en caso contrario       |
+| **AcceptedCmp2**        | 1 si el cliente aceptó la oferta en la **2.ª campaña**, 0 en caso contrario       |
+| **AcceptedCmp3**        | 1 si el cliente aceptó la oferta en la **3.ª campaña**, 0 en caso contrario       |
+| **AcceptedCmp4**        | 1 si el cliente aceptó la oferta en la **4.ª campaña**, 0 en caso contrario       |
+| **AcceptedCmp5**        | 1 si el cliente aceptó la oferta en la **5.ª campaña**, 0 en caso contrario       |
+| **Response (target)**   | 1 si el cliente aceptó la oferta en la **última campaña**, 0 en caso contrario    |
+| **Complain**            | 1 si el cliente presentó una queja en los **últimos 2 años**, 0 en caso contrario |
+| **DtCustomer**          | Fecha de inscripción del cliente en la empresa                                    |
+| **Education**           | Nivel educativo del cliente                                                       |
+| **Marital**             | Estado civil del cliente                                                          |
+| **Kidhome**             | Número de **niños pequeños** en el hogar del cliente                              |
+| **Teenhome**            | Número de **adolescentes** en el hogar del cliente                                |
+| **Income**              | Ingreso anual del hogar del cliente                                               |
+| **MntFishProducts**     | Gasto en **productos de pescado** en los últimos 2 años                           |
+| **MntMeatProducts**     | Gasto en **productos de carne** en los últimos 2 años                             |
+| **MntFruits**           | Gasto en **frutas** en los últimos 2 años                                         |
+| **MntSweetProducts**    | Gasto en **productos dulces** en los últimos 2 años                               |
+| **MntWines**            | Gasto en **vinos** en los últimos 2 años                                          |
+| **MntGoldProds**        | Gasto en **productos de oro** en los últimos 2 años                               |
+| **NumDealsPurchases**   | Número de **compras realizadas con descuento**                                    |
+| **NumCatalogPurchases** | Número de **compras realizadas por catálogo**                                     |
+| **NumStorePurchases**   | Número de **compras realizadas directamente en tiendas**                          |
+| **NumWebPurchases**     | Número de **compras realizadas a través del sitio web de la empresa**             |
+| **NumWebVisitsMonth**   | Número de **visitas al sitio web de la empresa durante el último mes**            |
+| **Recency**             | Número de **días desde la última compra**                                         |
