@@ -9,7 +9,7 @@ My Projects:
 
 ## 1) [Marketing](https://github.com/lucanvieira/Proyectos/tree/e3e9179a3f14e5199d08b92b9395953f04af61d4/MARKETING)
 ## 2) [Products](https://github.com/lucanvieira/Proyectos/tree/4f3b1a0d37da84296422762b9a8ca6a4d420eb59/Productos)
-## 3) [Education| Social](https://github.com/lucanvieira/Proyectos/tree/ea9387a8618c66b4330061ea7cf17048e250f5f3/Prouni%20-%20Brasil)
+## 3) [Education| Social](https://github.com/lucanvieira/Proyectos/tree/0da1cefc51801ed6ea4248214d3641ff7b21a83a/Prouni%20-%20Brasil)
 ---
 
 ## 🚀 About Me
