@@ -70,3 +70,5 @@ SELECT
 FROM dados_agregados
 ORDER BY Porcentaje_Total DESC
 LIMIT 10;
+
+# luc@n
