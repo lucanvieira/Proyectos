@@ -23,7 +23,7 @@ Turning complex data into clear, actionable insights. Background in psychology, 
 
 ## ⭐ Featured Project
 
-### [ProUni Program Analysis — Brazil (2005–2020)](https://github.com/lucanvieira](https://github.com/lucanvieira/Proyectos/tree/PROUNI---Brasil)
+### [ProUni Program Analysis — Brazil (2005–2020)](https://github.com/lucanvieira/Proyectos/tree/0da1cefc51801ed6ea4248214d3641ff7b21a83a/Prouni%20-%20Brasil)
 
 > Public policy analytics focused on education equity and social impact.
 
@@ -41,15 +41,15 @@ Turning complex data into clear, actionable insights. Background in psychology, 
 
 ## 📂 Projects
 
-### [Marketing Analysis · Spain](https://github.com/lucanvieira)
+### [Marketing Analysis · Spain](https://github.com/lucanvieira/Proyectos/tree/f7e197b1724e4df0443df523fc5494fabae6518c/MARKETING/Notebooks)
 Customer segmentation & campaign ROI analysis using Spanish Black Friday dataset.  
 `Python` `Pandas` `SQL` `Power BI` `RFM Analysis`
 
-### [Product Analytics · Spain](https://github.com/lucanvieira)
+### [Product Analytics · Spain](https://github.com/lucanvieira/Proyectos/tree/cae969622b6aab5b8936f35deb5b97670149a51a/PRODUCTS)
 Product performance & pricing strategy analysis using Zara sales dataset.  
 `Python` `Pandas` `SQL` `Power BI` `EDA`
 
-### [HR Analytics · Spain](https://github.com/lucanvieira)
+### [HR Analytics · Spain](https://github.com/lucanvieira/Proyectos/tree/ce7c0ecf8e77a1dafaa669601a6393c4408520f7/HR)
 Employee retention dashboard & attrition factor analysis.  
 `Python` `Pandas` `SQL` `Power BI` `DAX`
 
