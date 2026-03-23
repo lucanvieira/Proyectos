@@ -23,7 +23,7 @@ Turning complex data into clear, actionable insights. Background in psychology, 
 
 ## ⭐ Featured Project
 
-### [ProUni Program Analysis — Brazil (2005–2020)](https://github.com/lucanvieira)
+### [ProUni Program Analysis — Brazil (2005–2020)](https://github.com/lucanvieira](https://github.com/lucanvieira/Proyectos/tree/PROUNI---Brasil)
 
 > Public policy analytics focused on education equity and social impact.
 
