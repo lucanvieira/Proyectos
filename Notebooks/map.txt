@@ -1,0 +1,7 @@
+proyecto
+│
+├── data/               → dataset original and clean
+├── notebooks/          → análysis on Python/Pandas (.ipynb)
+├── queries/            → SQL
+├── dashboard/          → .pbix and link a Tableau Public/power bi
+└── README.md           → context, keys, pictures
