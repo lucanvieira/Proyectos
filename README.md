@@ -45,7 +45,7 @@ Turning complex data into clear, actionable insights. Background in psychology, 
 Customer segmentation & campaign ROI analysis using Spanish Black Friday dataset.  
 `Python` `Pandas` `SQL` `Power BI` `RFM Analysis`
 
-### [Product Analytics · Spain](https://github.com/lucanvieira/Proyectos/tree/cae969622b6aab5b8936f35deb5b97670149a51a/PRODUCTS)
+### [Product Analytics · Spain](https://github.com/lucanvieira/Proyectos/tree/2400ab68e64a116bb7ef5393231c58657875eaa6/Zara)
 Product performance & pricing strategy analysis using Zara sales dataset.  
 `Python` `Pandas` `SQL` `Power BI` `EDA`
 
