@@ -1,0 +1,20 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-ES
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["zara_cleaned_data 23_03_2026"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'zara_cleaned_data 23_03_2026'
+ref table DateTableTemplate_caf0083c-78ab-48ed-80d6-ed17406f9d98
+ref table LocalDateTable_f775989d-e30c-40e8-b593-ba2ca2aff429
+
+ref cultureInfo en-US
+

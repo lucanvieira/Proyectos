@@ -1,0 +1,5 @@
+relationship 58f40d67-55fd-48af-90d9-c5d7df75b498
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'zara_cleaned_data 23_03_2026'.scraped_at
+	toColumn: LocalDateTable_f775989d-e30c-40e8-b593-ba2ca2aff429.Date
+

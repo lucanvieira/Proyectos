@@ -1,0 +1,162 @@
+table 'zara_cleaned_data 23_03_2026'
+	lineageTag: 8f6c918f-e5b7-4db4-bd9f-468d4e971d58
+
+	column 'Product ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 5b95b416-2c6f-471f-bdf2-6c779572cd3e
+		summarizeBy: count
+		sourceColumn: Product ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Position'
+		dataType: string
+		lineageTag: 5f647005-64c2-4321-aa15-4c8905170008
+		summarizeBy: none
+		sourceColumn: Product Position
+
+		annotation SummarizationSetBy = Automatic
+
+	column Promotion
+		dataType: string
+		lineageTag: 9467dccd-b9e7-4aa8-a964-fd58c01ff6c0
+		summarizeBy: none
+		sourceColumn: Promotion
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Category'
+		dataType: string
+		lineageTag: 7fcfcf4f-4620-4de2-b638-037d30c4597b
+		summarizeBy: none
+		sourceColumn: Product Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column Seasonal
+		dataType: string
+		lineageTag: c5b650b9-3b15-45ae-9e08-5306b0be1779
+		summarizeBy: none
+		sourceColumn: Seasonal
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sales Volume'
+		dataType: int64
+		formatString: 0
+		lineageTag: 1a5ac429-72ba-4918-a7f4-216cf7d795c6
+		summarizeBy: sum
+		sourceColumn: Sales Volume
+
+		annotation SummarizationSetBy = Automatic
+
+	column brand
+		dataType: string
+		lineageTag: 64a0ac2c-a2c0-4ce6-8c26-cf633d259f4f
+		summarizeBy: none
+		sourceColumn: brand
+
+		annotation SummarizationSetBy = Automatic
+
+	column url
+		dataType: string
+		lineageTag: 469a32c4-0be7-4643-ae2a-e4eac3fe8fc6
+		summarizeBy: none
+		sourceColumn: url
+
+		annotation SummarizationSetBy = Automatic
+
+	column sku
+		dataType: string
+		lineageTag: b276f684-8f81-48c1-b05a-f1e0353e6ad3
+		summarizeBy: none
+		sourceColumn: sku
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: 1d37f864-096a-42e4-988e-c89d31c15c8c
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Description
+		dataType: string
+		lineageTag: 4705fe4c-93ac-41ea-88ad-24e0f1e0c0bf
+		summarizeBy: none
+		sourceColumn: Description
+
+		annotation SummarizationSetBy = Automatic
+
+	column price
+		dataType: int64
+		formatString: 0
+		lineageTag: ad218e02-d040-4f16-8ca9-ad442d1e72d9
+		summarizeBy: none
+		sourceColumn: price
+
+		annotation SummarizationSetBy = User
+
+	column currency
+		dataType: string
+		lineageTag: fcbefc43-a6b8-4108-a3a1-5b83929dc69b
+		summarizeBy: none
+		sourceColumn: currency
+
+		annotation SummarizationSetBy = Automatic
+
+	column scraped_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: ec089390-12c2-45c7-9d9c-ef38b51cf59b
+		summarizeBy: none
+		sourceColumn: scraped_at
+
+		variation Variación
+			isDefault
+			relationship: 58f40d67-55fd-48af-90d9-c5d7df75b498
+			defaultHierarchy: LocalDateTable_f775989d-e30c-40e8-b593-ba2ca2aff429.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column terms
+		dataType: string
+		lineageTag: 769f4324-b9e5-49ea-9818-6858ac1a6a0d
+		summarizeBy: none
+		sourceColumn: terms
+
+		annotation SummarizationSetBy = Automatic
+
+	column section
+		dataType: string
+		lineageTag: a1174fbd-55b5-4e74-8f46-f8539d073859
+		summarizeBy: none
+		sourceColumn: section
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'total sales' = [Sales Volume] * [price]
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 3d96a318-c3b3-4e5b-8132-eb96ba9e0452
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	partition 'zara_cleaned_data 23_03_2026' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\Lucan Vieira\Documents\GitHub\Proyectos\Zara\Data\zara_cleaned_data 23_03_2026.csv"),[Delimiter=",", Columns=16, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Product ID", Int64.Type}, {"Product Position", type text}, {"Promotion", type text}, {"Product Category", type text}, {"Seasonal", type text}, {"Sales Volume", Int64.Type}, {"brand", type text}, {"url", type text}, {"sku", type text}, {"name", type text}, {"description", type text}, {"price", Int64.Type}, {"currency", type text}, {"scraped_at", type datetime}, {"terms", type text}, {"section", type text}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"description", "Description"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_ResultType = Table
+
