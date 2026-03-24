@@ -23,6 +23,20 @@
                       "Entity": "zara_cleaned_data 23_03_2026"
                     }
                   },
+                  "Property": "Product ID"
+                }
+              },
+              "queryRef": "zara_cleaned_data 23_03_2026.Product ID",
+              "nativeQueryRef": "Product ID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "zara_cleaned_data 23_03_2026"
+                    }
+                  },
                   "Property": "Description"
                 }
               },
@@ -31,22 +45,17 @@
             },
             {
               "field": {
-                "Aggregation": {
+                "Column": {
                   "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "zara_cleaned_data 23_03_2026"
-                        }
-                      },
-                      "Property": "total sales"
+                    "SourceRef": {
+                      "Entity": "zara_cleaned_data 23_03_2026"
                     }
                   },
-                  "Function": 0
+                  "Property": "total sales"
                 }
               },
               "queryRef": "Sum(zara_cleaned_data 23_03_2026.total sales)",
-              "nativeQueryRef": "Suma de total sales"
+              "nativeQueryRef": "total sales"
             }
           ]
         }
@@ -61,7 +70,7 @@
                     "Entity": "zara_cleaned_data 23_03_2026"
                   }
                 },
-                "Property": "Description"
+                "Property": "total sales"
               }
             },
             "direction": "Descending"
@@ -425,7 +434,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "1097.8259886047324D"
+                  "Value": "996.1951097457368D"
                 }
               }
             }
@@ -494,7 +503,8 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "dc3c682a0a24b6ed5d1e",
+        "name": "4ad43d32b30d0e94f969",
+        "ordinal": 0,
         "field": {
           "Column": {
             "Expression": {
@@ -502,7 +512,7 @@
                 "Entity": "zara_cleaned_data 23_03_2026"
               }
             },
-            "Property": "Description"
+            "Property": "Product ID"
           }
         },
         "type": "TopN",
@@ -530,7 +540,7 @@
                               "Source": "z"
                             }
                           },
-                          "Property": "Description"
+                          "Property": "Product ID"
                         },
                         "Name": "field"
                       }
@@ -555,7 +565,7 @@
                         }
                       }
                     ],
-                    "Top": 5
+                    "Top": 6
                   }
                 }
               },
@@ -579,7 +589,7 @@
                             "Source": "z"
                           }
                         },
-                        "Property": "Description"
+                        "Property": "Product ID"
                       }
                     }
                   ],
@@ -593,7 +603,38 @@
             }
           ]
         }
+      },
+      {
+        "name": "dc3c682a0a24b6ed5d1e",
+        "ordinal": 1,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "zara_cleaned_data 23_03_2026"
+              }
+            },
+            "Property": "Description"
+          }
+        },
+        "type": "TopN"
+      },
+      {
+        "name": "d92542e90a6f2c37ce4a",
+        "ordinal": 2,
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "zara_cleaned_data 23_03_2026"
+              }
+            },
+            "Property": "total sales"
+          }
+        },
+        "type": "Advanced"
       }
-    ]
+    ],
+    "filterSortOrder": "Custom"
   }
 }

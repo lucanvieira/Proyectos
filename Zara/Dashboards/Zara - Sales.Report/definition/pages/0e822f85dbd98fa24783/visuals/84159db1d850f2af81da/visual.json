@@ -207,6 +207,13 @@
                   "Value": "16D"
                 }
               }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Verdana'"
+                }
+              }
             }
           }
         }
@@ -231,5 +238,57 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "c1e0cae43b6b30d71b05",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "zara_cleaned_data 23_03_2026"
+              }
+            },
+            "Property": "price"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "007b62d26679329ebd04",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "zara_cleaned_data 23_03_2026"
+                  }
+                },
+                "Property": "total sales"
+              }
+            },
+            "Function": 1
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "831af33358c0a160df6d",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "zara_cleaned_data 23_03_2026"
+              }
+            },
+            "Property": "Product ID"
+          }
+        },
+        "type": "TopN",
+        "howCreated": "User"
+      }
+    ]
   }
 }

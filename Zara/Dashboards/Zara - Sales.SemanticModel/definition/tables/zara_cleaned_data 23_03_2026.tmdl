@@ -5,10 +5,10 @@ table 'zara_cleaned_data 23_03_2026'
 		dataType: int64
 		formatString: 0
 		lineageTag: 5b95b416-2c6f-471f-bdf2-6c779572cd3e
-		summarizeBy: count
+		summarizeBy: none
 		sourceColumn: Product ID
 
-		annotation SummarizationSetBy = Automatic
+		annotation SummarizationSetBy = User
 
 	column 'Product Position'
 		dataType: string
@@ -154,9 +154,14 @@ table 'zara_cleaned_data 23_03_2026'
 				    Source = Csv.Document(File.Contents("C:\Users\Lucan Vieira\Documents\GitHub\Proyectos\Zara\Data\zara_cleaned_data 23_03_2026.csv"),[Delimiter=",", Columns=16, Encoding=65001, QuoteStyle=QuoteStyle.None]),
 				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Product ID", Int64.Type}, {"Product Position", type text}, {"Promotion", type text}, {"Product Category", type text}, {"Seasonal", type text}, {"Sales Volume", Int64.Type}, {"brand", type text}, {"url", type text}, {"sku", type text}, {"name", type text}, {"description", type text}, {"price", Int64.Type}, {"currency", type text}, {"scraped_at", type datetime}, {"terms", type text}, {"section", type text}}),
-				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"description", "Description"}})
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"description", "Description"}}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Renamed Columns","","No value",Replacer.ReplaceValue,{"Description"}),
+				    #"Replaced Value1" = Table.ReplaceValue(#"Replaced Value","","#(tab)",Replacer.ReplaceValue,{"name"}),
+				    #"Replaced Value2" = Table.ReplaceValue(#"Replaced Value1","#(tab)","no value",Replacer.ReplaceText,{"name"})
 				in
-				    #"Renamed Columns"
+				    #"Replaced Value2"
 
 	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
 

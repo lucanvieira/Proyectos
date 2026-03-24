@@ -481,5 +481,30 @@
     "#493452",
     "#0D2E25",
     "#54484E"
-  ]
+  ],
+  "visualStyles": {
+    "page": {
+      "*": {
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F0F0E0"
+              }
+            },
+            "transparency": 29
+          }
+        ],
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FDFFE2"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
 }

@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "89505246d62cbf231668",
   "position": {
-    "x": 0,
-    "y": 96,
+    "x": 621.20068610634644,
+    "y": 97.564322469982841,
     "z": 6000,
-    "height": 80,
-    "width": 640,
+    "height": 79.039451114922812,
+    "width": 660.72041166380791,
     "tabOrder": 6000
   },
   "visual": {
@@ -93,7 +93,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "22D"
+                  "Value": "20D"
                 }
               }
             }
@@ -151,6 +151,13 @@
                   "Value": "17D"
                 }
               }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Verdana'"
+                }
+              }
             }
           }
         }
@@ -188,5 +195,28 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "24ba47c839377a30c3b0",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "zara_cleaned_data 23_03_2026"
+                  }
+                },
+                "Property": "total sales"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
   }
 }

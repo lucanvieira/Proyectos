@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "c8a7784f65900d62403d",
   "position": {
-    "x": 592,
-    "y": 96,
+    "x": 621.25,
+    "y": 0,
     "z": 7000,
-    "height": 80,
-    "width": 688,
+    "height": 96.25,
+    "width": 660,
     "tabOrder": 7000
   },
   "visual": {
@@ -89,6 +89,13 @@
                   }
                 }
               }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "20D"
+                }
+              }
             }
           }
         }
@@ -142,6 +149,13 @@
               "expr": {
                 "Literal": {
                   "Value": "17D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Verdana'"
                 }
               }
             }
@@ -201,5 +215,28 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "630dff4c21af1d895012",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "zara_cleaned_data 23_03_2026"
+                  }
+                },
+                "Property": "Sales Volume"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
   }
 }
