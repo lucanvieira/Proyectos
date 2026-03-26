@@ -115,7 +115,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Sales'"
+                  "Value": "'Sales Total'"
                 }
               }
             },
@@ -148,7 +148,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "17D"
+                  "Value": "16D"
                 }
               }
             },

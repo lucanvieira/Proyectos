@@ -55,7 +55,8 @@
                 }
               },
               "queryRef": "Sum(zara_cleaned_data 23_03_2026.total sales)",
-              "nativeQueryRef": "total sales"
+              "nativeQueryRef": "Sales",
+              "displayName": "Sales"
             }
           ]
         }
@@ -70,7 +71,7 @@
                     "Entity": "zara_cleaned_data 23_03_2026"
                   }
                 },
-                "Property": "total sales"
+                "Property": "Description"
               }
             },
             "direction": "Descending"
@@ -323,7 +324,14 @@
             "styleValues": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Left'"
                 }
               }
             }
@@ -337,7 +345,7 @@
             "styleValues": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             },
@@ -347,10 +355,45 @@
                   "Value": "true"
                 }
               }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Center'"
+                }
+              }
             }
           },
           "selector": {
             "metadata": "Sum(zara_cleaned_data 23_03_2026.total sales)"
+          }
+        },
+        {
+          "properties": {
+            "styleValues": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "styleHeader": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Center'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "zara_cleaned_data 23_03_2026.Product ID"
           }
         }
       ],

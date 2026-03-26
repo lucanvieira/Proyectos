@@ -165,7 +165,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "18D"
+                  "Value": "16D"
                 }
               }
             }

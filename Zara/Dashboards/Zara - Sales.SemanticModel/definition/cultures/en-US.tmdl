@@ -1,2 +1,2707 @@
 cultureInfo en-US
 
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "zara_cleaned_data_23_03_2026.price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "outlay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "penalty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "zara_cleaned_data 23_03_2026": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026.product_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "Product ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "product identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "product credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "artifact id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "item id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026.product_position": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "Product Position"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product position": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "position": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "artifact position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "item position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "merchandise position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "produce position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "product location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "product situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "product place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "product site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026.promotion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "Promotion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "promotion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "elevation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "preferment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "advancement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "raise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "upgrade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "advertising": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "campaign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "publicity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "marketing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "offer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026.product_category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "Product Category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "product classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "product class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026.seasonal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "Seasonal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "seasonal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cyclical": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "periodic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cyclic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "regular": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "recurrent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spring": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "summer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "autumn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "winter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "limited": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026.sales_volume": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "Sales Volume"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sales volume": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale volume": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "volume": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sale capacity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sale size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sale bulk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "capacity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bulk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sale tome": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "tome": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "sale book": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026.brand": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "brand"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "brand": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "marque": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "make": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "trademark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "strain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cast": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026.url": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "url"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "url": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "website": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "web address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.571
+			          }
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026.sku": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "sku"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sku": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026.name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "zara_cleaned_data_23_03_2026.description": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "Description"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "description": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "appearance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "descriptor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "specification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "overview": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "report": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026.currency": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "currency"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "currency": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "money": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "coinage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "exchange": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "prevalence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "popularity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "vogue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "circulation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "commonness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026.scraped_at": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "scraped_at"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "scraped at": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "scraped_at": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "zara_cleaned_data_23_03_2026.scraped_at.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "VariationSource": "scraped_at",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "scraped at date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "zara_cleaned_data_23_03_2026.scraped_at.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "VariationSource": "scraped_at",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "scraped at year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "scraped at yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "zara_cleaned_data_23_03_2026.scraped_at.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "VariationSource": "scraped_at",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "scraped at quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "scraped at qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "zara_cleaned_data_23_03_2026.scraped_at.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "VariationSource": "scraped_at",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "scraped at month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "scraped at mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "zara_cleaned_data_23_03_2026.scraped_at.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "VariationSource": "scraped_at",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "scraped at day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "zara_cleaned_data_23_03_2026.term": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "terms"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "term": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tenure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stretch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "span": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "expression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "idiom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "word": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "phrase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026.section": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "section"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "section": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "subdivision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "division": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "segment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "slice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sector": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fragment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026.total_sale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "zara_cleaned_data 23_03_2026",
+			          "ConceptualProperty": "total sales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total sale": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total auction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "auction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "total transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "total deal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "total trade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "total vending": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "total retailing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "Sales": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "zara_cleaned_data_23_03_2026_is_named_name": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.name": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Name": {
+			              "Role": "zara_cleaned_data_23_03_2026.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "names_are_names_IDs_of_zara_cleaned_data_23_03_2026"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_names"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_is_expensive": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.price": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "zara_cleaned_data_23_03_2026.price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "price_indicates_how_expensive_zara_cleaned_data_23_03_2026_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_prices"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_is_expensive1": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.total_sale": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.total_sale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "zara_cleaned_data_23_03_2026.total_sale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "total_sale_indicates_how_expensive_zara_cleaned_data_23_03_2026_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.total_sale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_total_sales"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_is_scraped_on_scraped_at": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.scraped_at": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.scraped_at"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "zara_cleaned_data_23_03_2026.scraped_at"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "scrape": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "zara_cleaned_data_23_03_2026_are_scraped_on_scraped_at"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_has_product_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.product_ID": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.product_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.product_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_product_ID"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_has_product_position": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.product_position": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.product_position"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.product_position"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_product_positions"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_has_promotion": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.promotion": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.promotion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.promotion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_promotions"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_has_product_category": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.product_category": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.product_category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.product_category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_product_categories"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_has_seasonal": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.seasonal": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.seasonal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.seasonal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_seasonal"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_has_sales_volume": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.sales_volume": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.sales_volume"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.sales_volume"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_sales_volumes"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_has_brand": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.brand": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.brand"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.brand"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_brands"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_has_url": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.url": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.url"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.url"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_urls"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_has_sku": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.sku": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.sku"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.sku"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_skus"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_has_description": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.description": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.description"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.description"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_descriptions"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_has_currency": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.currency": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.currency"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.currency"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_currencies"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_has_scraped_at": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.scraped_at": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.scraped_at"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.scraped_at"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_scraped_at"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_has_term": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.term": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.term"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.term"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_terms"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_has_section": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.section": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.section"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.section"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "zara_cleaned_data_23_03_2026_have_sections"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_scraped_at_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026.scraped_at": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.scraped_at"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.scraped_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.scraped_at.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026.scraped_at"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.scraped_at.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "scraped_at_have_scraped_at_date_hierarchy"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_scraped_at_date_hierarchy_has_zara_cleaned_data_23_03_2026_scraped_at_year": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026.scraped_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.scraped_at.date_hierarchy"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.scraped_at.year": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.scraped_at.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026.scraped_at.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.scraped_at.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "scraped_at_date_hierarchy_have_scraped_at_year"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_scraped_at_date_hierarchy_has_zara_cleaned_data_23_03_2026_scraped_at_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026.scraped_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.scraped_at.date_hierarchy"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.scraped_at.quarter": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.scraped_at.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026.scraped_at.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.scraped_at.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "scraped_at_date_hierarchy_have_scraped_at_quarter"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_scraped_at_date_hierarchy_has_zara_cleaned_data_23_03_2026_scraped_at_month": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026.scraped_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.scraped_at.date_hierarchy"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.scraped_at.month": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.scraped_at.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026.scraped_at.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.scraped_at.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "scraped_at_date_hierarchy_have_scraped_at_month"
+			        }
+			      ]
+			    },
+			    "zara_cleaned_data_23_03_2026_scraped_at_date_hierarchy_has_zara_cleaned_data_23_03_2026_scraped_at_day": {
+			      "Binding": {
+			        "ConceptualEntity": "zara_cleaned_data 23_03_2026"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "zara_cleaned_data_23_03_2026.scraped_at.date_hierarchy": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.scraped_at.date_hierarchy"
+			          }
+			        },
+			        "zara_cleaned_data_23_03_2026.scraped_at.day": {
+			          "Target": {
+			            "Entity": "zara_cleaned_data_23_03_2026.scraped_at.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "zara_cleaned_data_23_03_2026.scraped_at.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "zara_cleaned_data_23_03_2026.scraped_at.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "scraped_at_date_hierarchy_have_scraped_at_day"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
