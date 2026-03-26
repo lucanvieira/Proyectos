@@ -1,0 +1,11 @@
+country_sk,country_code,country_name,region,currency,exchange_rate_usd
+1,IN,India,South Asia,INR,0.012
+2,US,United States,North America,USD,1.0
+3,CA,Canada,North America,CAD,0.74
+4,AU,Australia,Oceania,AUD,0.65
+5,DE,Germany,Western Europe,EUR,1.08
+6,FR,France,Western Europe,EUR,1.08
+7,IT,Italy,Southern Europe,EUR,1.08
+8,ES,Spain,Southern Europe,EUR,1.08
+9,JP,Japan,East Asia,JPY,0.0067
+10,MX,Mexico,Latin America,MXN,0.058
