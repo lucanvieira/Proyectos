@@ -1,13 +1,12 @@
--- ============================================================================
--- SIMPLE SINGLE TABLE - AMAZON SOFTWARE DATA
--- ============================================================================
+-- Drop existing table
+DROP TABLE IF EXISTS amazon_software;
 
+-- Create table with CORRECT column names matching your CSV
 CREATE TABLE amazon_software (
-    -- Primary identifier
     id INT AUTO_INCREMENT PRIMARY KEY,
     
-    -- Original columns
-    product_rank INT,
+    -- Original columns (using EXACT names from your CSV)
+    `rank` INT,                    -- Note: NOT product_rank
     asin VARCHAR(20),
     product_title VARCHAR(500),
     product_price VARCHAR(50),
@@ -18,12 +17,12 @@ CREATE TABLE amazon_software (
     country VARCHAR(2),
     page INT,
     
-    -- Added columns (only 2)
+    -- Added columns
     product_title_clean VARCHAR(500),
     price_usd DECIMAL(10,2)
 );
 
--- Create indexes for faster queries
+-- Create indexes
 CREATE INDEX idx_country ON amazon_software(country);
 CREATE INDEX idx_rating ON amazon_software(product_star_rating);
 CREATE INDEX idx_price ON amazon_software(price_usd);
