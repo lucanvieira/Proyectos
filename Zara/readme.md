@@ -59,7 +59,7 @@ zara-sales-analysis/
 | `sales_date` | Date of transaction |
 | `store_location` | Store city / region |
 
-**Source:** [Zara Sales Dataset — Kaggle](https://www.kaggle.com/datasets/xontoloyo/zara-sales-dataset)
+**Source:** [Zara Sales Dataset — Kaggle](https://www.kaggle.com/datasets/xontoloyo/data-penjualan-zara)
 
 ---
 
@@ -87,7 +87,6 @@ zara-sales-analysis/
 ```
 Raw Data → Cleaning & Validation (Python / Pandas)
         → Exploratory Analysis (Pandas / Seaborn)
-        → SQL Queries for aggregations and cross-analysis
         → Interactive Dashboard (Power BI + Tableau Public)
         → Actionable Insights & Recommendations
 ```
