@@ -1,6 +1,0 @@
-popularity_category_sk,popularity_category,review_range_min,review_range_max
-1,No Reviews,0,0
-2,Low (1-49),1,49
-3,Medium (50-199),50,199
-4,High (200-999),200,999
-5,Very High (1000+),1000,999999

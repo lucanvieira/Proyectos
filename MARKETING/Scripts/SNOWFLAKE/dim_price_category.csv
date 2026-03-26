@@ -1,6 +1,0 @@
-price_category_sk,price_category,price_range_min_usd,price_range_max_usd
-1,Budget (< $10),0.0,9.99
-2,Economy ($10 - $30),10.0,29.99
-3,Mid-Range ($30 - $100),30.0,99.99
-4,Premium ($100+),100.0,999999.0
-5,Unknown,,
