@@ -15,10 +15,9 @@ Zara operates in a highly competitive fast-fashion market where pricing decision
 
 **This project answers four core business questions:**
 
-> 1. Which product categories drive the most revenue and volume?
-> 2. How does pricing relate to sales performance across categories?
-> 3. Are there seasonal or temporal patterns that predict demand peaks?
-> 4. Which store locations outperform — and why?
+> 1. How does pricing relate to sales performance across categories?
+> 2. Are there seasonal or temporal patterns that predict demand peaks?
+> 3. Which store locations outperform — and why?
 
 ---
 
@@ -36,12 +35,6 @@ zara-sales-analysis/
 │   ├── 02_product_performance.ipynb
 │   ├── 03_pricing_analysis.ipynb
 │   └── 04_temporal_trends.ipynb
-│
-├── queries/
-│   ├── product_performance.sql
-│   ├── pricing_by_category.sql
-│   ├── seasonal_trends.sql
-│   └── store_comparison.sql
 │
 ├── dashboard/
 │   ├── zara_sales.pbix       → Power BI dashboard
@@ -72,22 +65,17 @@ zara-sales-analysis/
 
 ## 🔍 Analysis Modules
 
-### 1 · Product Performance by Category
-- Revenue and volume ranking by category
-- Best and worst performing SKUs
-- Category contribution to total sales (%)
-
-### 2 · Pricing Strategy & Margins
+### 1 · Pricing Strategy & Margins
 - Price distribution per category
 - Correlation between price point and sales volume
 - Identification of price elasticity patterns
 
-### 3 · Temporal Trends & Seasonality
+### 2 · Temporal Trends & Seasonality
 - Monthly and weekly sales evolution
 - Peak demand periods detection
 - Year-over-year comparison (where available)
 
-### 4 · Store / Region Comparison
+### 3 · Store / Region Comparison
 - Top performing locations by revenue
 - Sales density by region
 - Identification of underperforming stores
@@ -105,15 +93,6 @@ Raw Data → Cleaning & Validation (Python / Pandas)
 ```
 
 ---
-
-## 💡 Key Insights
-
-> 🔄 *This section will be updated as the analysis progresses.*
-
-- [ ] Top revenue category identified
-- [ ] Pricing sweet spot per category
-- [ ] Peak sales period confirmed
-- [ ] Best performing store region
 
 ---
 
